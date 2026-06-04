@@ -293,20 +293,6 @@ http://localhost:8501
 | `src/prompts.py` | RAG Prompt 模板 |
 | `src/ui_helpers.py` | CSV 下载等 UI 辅助函数 |
 
-## 隐私与安全
-
-本仓库不会包含以下内容：
-
-- `.env`、API Key、访问令牌等敏感配置；
-- `.venv/` 或其他本地 Python 环境；
-- 原始参会者 CSV 数据；
-- SQLite 数据库文件；
-- Chroma 向量索引；
-- Streamlit secrets；
-- Python 缓存文件。
-
-如果你需要演示，请在本地准备 CSV 数据，并通过页面上传。
-
 ## 常见问题
 
 ### 1. 构建向量索引失败：`No module named 'sentence_transformers'`
@@ -348,6 +334,3 @@ LLM_API_KEY=your_api_key_here
 - 公司级销售跟进名单生成；
 - 会议运营数据问答助手演示。
 
-## License
-
-MIT License
